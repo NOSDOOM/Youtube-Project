@@ -1,0 +1,128 @@
+body {
+  background-color: #666;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  padding-left: 200px;
+  overflow: ;
+}
+
+button {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #333;
+  color: #fff;
+  border: 0;
+  padding: 1% 2.5%;
+  cursor: pointer;
+	max-width: 100%;
+}
+
+#controls {
+	margin-top:-11%;
+	 margin-left: 12%;
+	max-width: 100%;
+	position:relative;
+	z-index:99999;
+}
+
+#demo {
+  margin-left: 6%;
+	max-width: 100%;
+}
+
+#pause:hover {
+  background: #f1c40f;
+}
+
+#start:hover {
+  background: #2ecc71;
+}
+
+#stop:hover {
+  background: #A52A2A;
+}
+
+#go:hover {
+  background: #2980b9;
+}
+
+button:focus {
+  outline: 0;
+}
+
+#myText {
+  background: #aaa;
+  border: 1px double #363636;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #333;
+  color: black;
+  font: bold;
+  outline: #141414;
+  height: 25px;
+	width:25%;
+  font-weight: bold;
+	max-width: 100%;
+}
+
+input[type=text] {
+ -webkit-transition: all .5s ease;
+   -moz-transition: all .5s ease;
+   transition: all .5s ease;
+}
+
+input[type=text]:focus {
+  width: 36%;
+}
+
+::-webkit-input-placeholder {
+  color: black;
+  text-align: center;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
+  color: black;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
+  color: black;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+  color: black;
+}
+
+#idloc {
+	color: white;
+	max-width: 100%;
+}
+
+.ui-tooltip {
+	z-index: 9999;
+	max-width: 300px;
+	margin-right:500px;
+}
+body .ui-tooltip {
+	border-width: 2px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+	
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 80%;
+	}
